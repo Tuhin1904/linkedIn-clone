@@ -1,0 +1,31 @@
+.navBar{
+    max-width: 50rem;
+margin: auto;
+padding:10px 0 15px;
+display:flex;
+align-items:center;
+position:relative;
+justify-content:space-between;
+flex-wrap:nowrap;
+ /* prevents flex items from wrapping to a new line or row if there isn't enough space along the main axis. Instead, they will try to fit within the available space on a single line. */
+}
+.navBar a{
+  width:10rem;
+  @media (max-width:768px){
+    padding:0 5px;
+    background-color: red;
+  }
+}
+.join{
+    width: fit-content;
+font-size:1.3rem ;
+padding:10px;
+color:rgba(34, 31, 33, 0.8);
+text-decoration: none;
+margin-right: 10px;
+border:none;
+&:hover{
+  background-color:rgba(221, 216, 218, 0.8) ;
+  color:rgba(34, 31, 33, 0.9);
+}
+}
