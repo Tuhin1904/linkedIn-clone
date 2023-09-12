@@ -1,0 +1,55 @@
+.rightContainer{
+    grid-area: right;
+}
+.followR{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 12px;
+    border: 1px solid rgba(105, 105, 105,.2);
+}
+
+.title{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 100%;
+    color: rgb(105, 105, 105);
+}
+
+.feedList{
+    margin-top: 1.5rem;
+    & li{
+        display: flex;
+        align-items: end;
+        margin: 1rem 0;
+        position: relative;
+        font-size: 1rem;
+        & div{
+            display: flex;
+            flex-direction: column;
+
+        }
+        & button{
+            background-color: transparent;
+            color:  rgb(46, 116, 207);
+            padding: 0.6rem;
+            max-width: 30rem;
+            min-width: 5em;
+            max-height: 2rem;
+            text-align: center;
+            justify-content: center;
+            outline: none;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+.recommendation{
+    color: rgb(46, 116, 207);
+}

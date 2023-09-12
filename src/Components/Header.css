@@ -1,0 +1,135 @@
+.headerContainer{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid navy;
+    left:0;
+    padding:  0 24px;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    z-index: 100;
+}
+
+.headerContent{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1128px ;
+    min-height: 100%;
+
+}
+.logo{
+    margin-right: 10px;
+
+}
+.search{
+    opacity: 1;
+    flex-grow: 1;
+    position: relative;
+    & input{
+        max-width: 8rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #e7e6e6;
+        line-height: 1.75;
+        padding: 0 25px;
+        font-weight: 100;
+        height: 30px;
+        border-color: rgb(25, 164, 228);
+        
+    }
+    .sIcon{
+        /* display: none; */
+        z-index: 1;
+        top:9px;
+        position: absolute;
+        left: 3px;
+        pointer-events: none;
+    }
+}
+.Nav{
+    margin-left: auto;
+    display: block;
+    @media (max-width:768px) {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: white;
+        width: 100%;
+    }
+}
+.navlist{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    height: 3.2rem;
+    .active span{
+            content: "";
+            transform: scaleX(1);
+            border-bottom:2px solid black ;
+            bottom:0;
+            /* left:0; */
+            /* position: absolute; */
+            transition: all 200ms ease-in-out;
+            /* width: 100%; */
+            border-color: rgba(0,0,0,0.9);
+        
+    }
+}
+.list{
+    display: flex;
+    align-items:center ;
+    margin: 10px;
+    & a{
+        align-items: center;
+        display: flex;
+        background: transparent;
+        flex-direction: column;
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: center;
+        line-height:1.5rem;
+        min-height: 40px;
+        max-height: 80px;
+        position: relative;
+        text-decoration: none;
+        & span{
+            align-items: center;
+            display: flex;
+            color:rgb(0, 0, 0);
+        }
+        @media (max-width:768px) {
+            min-width: 70px; 
+            
+        }
+        &:hover, &:active{
+                   & span{
+                    color: rgb(66, 65, 65);
+                   }
+        }
+    }
+}
+.user a img{
+    width:24px ;
+    border-radius: 50%;
+}
+.user a span{
+    /* display: flex; */
+    align-items: center;
+    
+}
+
+.work{
+    border-left: 1px solid rgb(161, 160, 160);
+}
+.user div a{
+    position: absolute;
+    top:45px;
+    background: white;
+    border-radius: 0 0 5px 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    transition: all 200ms;
+    text-align: center;
+    display: none;
+}

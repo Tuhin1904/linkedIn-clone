@@ -1,0 +1,103 @@
+.leftContainer{
+     grid-area: left;
+}
+.artCard{
+     text-align: center;
+     overflow: hidden;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     background-color: white;
+     position: relative ;
+}
+.userInfo{
+     border-bottom: 1px solid rgb(49, 49, 49,0.4);
+     padding: 1rem;
+     word-wrap: break-word;
+     word-break: break-word;
+}
+.cardBG{
+     background: url("../images/card-bg.svg");
+     background-position: center; 
+     background-size: 500px;
+     height: 50px;
+     border-radius: 9px 9px 0 0;
+}
+.photoo{
+     background-image: url("../images/photo.svg");
+     width: 72px;
+     height: 72px;
+     background-repeat: no-repeat;
+     box-sizing: border-box;
+     background-clip: content-box;
+     background-position: center;
+     background-size: 70%;
+     border: 2px solid white;
+     margin: -30px auto 0 ;
+     border-radius: 50%;
+     background-color: white;
+}
+.link1{
+     font-weight: bold;
+}
+.Welcome{
+     margin-top: 5px;
+     font-size: 1rem;
+     color: rgb(15, 119, 255);
+     font-weight: 600;
+}
+.widget{
+     border-bottom: 1px solid rgb(49, 49, 49,0.4);
+     padding: 1rem 0.7rem;
+     & a{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          &:hover{
+               background-color: rgb(212, 212, 212);
+          }
+     
+     & div{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          & span{
+               line-height: 1.4rem;
+               &:first-child{
+                    color: rgb(129, 129, 129);
+               }
+               }
+          }
+          }
+     }
+.item{
+     padding: 1rem;
+     text-align: left;
+     font-weight: bold;
+     display: block;
+}
+.communityC{
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+     border-radius: 10px;
+     background-color: white;
+     position: relative ;
+     padding: 16px ;
+     & a{
+          color: black;
+          padding: 5px 10px;
+          font-weight: 600;
+          &:hover{
+               color: rgb(58, 143, 255);
+          }
+          & span{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+          }
+          &:last-child{
+               color: rgb(105, 105, 105);
+          }
+     }
+}
