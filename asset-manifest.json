@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/linkedIn-clone/static/css/main.4a953ca3.css",
+    "main.js": "/linkedIn-clone/static/js/main.e38f4c20.js",
+    "static/media/bannerCard.jpg": "/linkedIn-clone/static/media/bannerCard.fea18ecd55159fb6ae8b.jpg",
+    "static/media/login-hero.svg": "/linkedIn-clone/static/media/login-hero.f345bb66c0343807b84b3d024582a0ff.svg",
+    "static/media/login-logo.svg": "/linkedIn-clone/static/media/login-logo.15b7802b075e3e83c9e1c8fb6a581b36.svg",
+    "static/media/nav-messaging.svg": "/linkedIn-clone/static/media/nav-messaging.9584eff2307e87584e6d10387a42211f.svg",
+    "static/media/photo.svg": "/linkedIn-clone/static/media/photo.b826ffee63cd7ef52868.svg",
+    "static/media/google.svg": "/linkedIn-clone/static/media/google.c2362966a4a06e68d30ecf01dbfb13d1.svg",
+    "index.html": "/linkedIn-clone/index.html",
+    "static/media/user.svg": "/linkedIn-clone/static/media/user.912f30c66c5c71501b5f09573301b3b0.svg",
+    "static/media/home-logo.svg": "/linkedIn-clone/static/media/home-logo.894ffbd035b6ff43124c4b7d52e44d19.svg",
+    "static/media/nav-network.svg": "/linkedIn-clone/static/media/nav-network.c42b3f6b7e46a963163de66a9ddf3e20.svg",
+    "static/media/nav-notifications.svg": "/linkedIn-clone/static/media/nav-notifications.3e02a07cafba2aa23b00f4779a14a643.svg",
+    "static/media/widget-icon.svg": "/linkedIn-clone/static/media/widget-icon.4a066c129b9a55b13ec756750c3f0d3f.svg",
+    "static/media/card-bg.svg": "/linkedIn-clone/static/media/card-bg.7ae1b15125c0656d1bc2.svg",
+    "static/media/nav-home.svg": "/linkedIn-clone/static/media/nav-home.41af876012c3fdcdb6c6146f17bc3efd.svg",
+    "static/media/nav-jobs.svg": "/linkedIn-clone/static/media/nav-jobs.ceaca2e6a176c69cf8a9a41d5efd6150.svg",
+    "static/media/nav-work.svg": "/linkedIn-clone/static/media/nav-work.c55ad5a35737718fe182f70f15c28efe.svg",
+    "static/media/item-icon.svg": "/linkedIn-clone/static/media/item-icon.3da8f7a3bf62bd1beeab707df845293b.svg",
+    "static/media/down-icon.svg": "/linkedIn-clone/static/media/down-icon.4537f0b85af265e1b5e1f1c42a837711.svg",
+    "static/media/plus-icon.svg": "/linkedIn-clone/static/media/plus-icon.35a7eb7e1111b554c8078b215881caaa.svg",
+    "main.4a953ca3.css.map": "/linkedIn-clone/static/css/main.4a953ca3.css.map",
+    "main.e38f4c20.js.map": "/linkedIn-clone/static/js/main.e38f4c20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a953ca3.css",
+    "static/js/main.e38f4c20.js"
+  ]
+}
