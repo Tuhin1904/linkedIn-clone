@@ -27,19 +27,19 @@ function Header() {
             <div className='Nav'>
                 <ul className='navlist ' >
                     <li className="list active">
-                        <a href=''><img src={navhome} alt="home"/><span>Home</span></a>
+                        <a><img src={navhome} alt="home"/><span>Home</span></a>
                     </li>
                     <li className='list'>
-                        <a href=''><img src={network} alt="home"/><span>My Network</span></a>
+                        <a><img src={network} alt="home"/><span>My Network</span></a>
                     </li>
                     <li className='list'>
-                        <a href=''><img src={jobs} alt="home"/><span>Jobs</span></a>
+                        <a><img src={jobs} alt="home"/><span>Jobs</span></a>
                     </li>
                     <li className='list'>
-                        <a href=''><img src={message} alt="home"/><span>Message</span></a>
+                        <a><img src={message} alt="home"/><span>Message</span></a>
                     </li>
                     <li className='list'>
-                        <a href=''><img src={notification} alt="home"/><span>Notification</span></a>
+                        <a><img src={notification} alt="home"/><span>Notification</span></a>
                     </li>
                     <div className='user list'>
                         <a>

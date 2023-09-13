@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Maven+Pro:wght@400;500;600&display=swap');
+
 body {
   overflow-y: scroll;
   overflow-x: hidden ;
+  font-family: 'Kablammo', cursive;
+font-family: 'Maven Pro', sans-serif;
 }
 :root,body,html{
   background-color: #f0f0f0;
   box-sizing: border-box;  
   /* width,height of the element include width and height of content, padding and border are substracted */
-
+  font-family: 'Kablammo', cursive;
+font-family: 'Maven Pro', sans-serif;
 }
